@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Service Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sales Service Application</h1>
+        <div class="filter">
+            <label for="statusFilter">Status:</label>
+            <select id="statusFilter">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="active">Active</option>
+                <!-- <option value="inactive">Inactive</option> -->
+                <option value="none">None</option>
+            </select>
+            <label for="listFilter">Lists:</label>
+            <select id="listFilter">
+                <option value="all">All</option>
+                <option value="my-list">My Lists</option>
+                <option value="all-list">All Lists</option>
+            </select>
+        </div>
+        <table id="salesTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Category</th>
+                    <th>Owner Name</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

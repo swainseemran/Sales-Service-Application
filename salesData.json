@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Sale 1",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-15",
+        "category": "Electronics",
+        "ownerName": "Seemran",
+        "status": "completed"
+    },
+    {
+        "id": 2,
+        "name": "Sale 2",
+        "startDate": "2024-02-01",
+        "endDate": "2024-02-15",
+        "category": "Clothing",
+        "ownerName": "Shiv Reddy",
+        "status": "Inactive"
+    },
+    {
+        "id": 3,
+        "name": "Sale 3",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-15",
+        "category": "Books",
+        "ownerName": "Seemran",
+        "status": "active"
+    },
+    {
+        "id": 4,
+        "name": "Sale 4",
+        "startDate": "2024-02-01",
+        "endDate": "2024-02-15",
+        "category": "Groceries",
+        "ownerName": "Manish Sahu",
+        "status": "active"
+    },
+    {
+        "id": 5,
+        "name": "Sale 5",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-15",
+        "category": "Gaming Application",
+        "ownerName": "Rahul kumar",
+        "status": "Inactive"
+    },
+    {
+        "id": 6,
+        "name": "Sale 6",
+        "startDate": "2024-02-01",
+        "endDate": "2024-02-15",
+        "category": "Stationary",
+        "ownerName": "Seemran",
+        "status": "active"
+    },
+    {
+        "id": 7,
+        "name": "Sale 7",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-15",
+        "category": "Electronics",
+        "ownerName": "Seemran",
+        "status": "completed"
+    },
+    {
+        "id": 8,
+        "name": "Sale 8",
+        "startDate": "2024-02-01",
+        "endDate": "2024-02-15",
+        "category": "Clothing",
+        "ownerName": "Shiv Reddy",
+        "status": "Inactive"
+    },
+    {
+        "id": 9,
+        "name": "Sale 9",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-15",
+        "category": "Books",
+        "ownerName": "Seemran",
+        "status": "active"
+    },
+    {
+        "id": 10,
+        "name": "Sale 10",
+        "startDate": "2024-02-01",
+        "endDate": "2024-02-15",
+        "category": "Groceries",
+        "ownerName": "Rahul kumar",
+        "status": "completed"
+    },
+    {
+        "id": 11,
+        "name": "Sale 11",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-15",
+        "category": "Gaming Application",
+        "ownerName": "Manish Sahu",
+        "status": "completed"
+    },
+    {
+        "id": 12,
+        "name": "Sale 12",
+        "startDate": "2024-02-01",
+        "endDate": "2024-02-15",
+        "category": "Stationary",
+        "ownerName": "Rahul kumar",
+        "status": "Inactive"
+    },
+    {
+        "id": 13,
+        "name": "Sale 13",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-15",
+        "category": "Electronics",
+        "ownerName": "Seemran",
+        "status": "completed"
+    },
+    {
+        "id": 14,
+        "name": "Sale 14",
+        "startDate": "2024-02-01",
+        "endDate": "2024-02-15",
+        "category": "Clothing",
+        "ownerName": "Manish Sahu",
+        "status": "active"
+    },
+    {
+        "id": 15,
+        "name": "Sale 15",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-15",
+        "category": "Books",
+        "ownerName": "Shiv Reddy",
+        "status": "active"
+    },
+    {
+        "id": 16,
+        "name": "Sale 16",
+        "startDate": "2024-02-01",
+        "endDate": "2024-02-15",
+        "category": "Groceries",
+        "ownerName": "Rahul kumar",
+        "status": "completed"
+    },
+    {
+        "id": 17,
+        "name": "Sale 17",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-15",
+        "category": "Gaming Application",
+        "ownerName": "Manish Sahu",
+        "status": "completed"
+    },
+    {
+        "id": 18,
+        "name": "Sale 18",
+        "startDate": "2024-02-01",
+        "endDate": "2024-02-15",
+        "category": "Stationary",
+        "ownerName": "Seemran",
+        "status": "active"
+    },
+    {
+        "id": 19,
+        "name": "Sale 19",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-15",
+        "category": "Electronics",
+        "ownerName": "Seemran",
+        "status": "completed"
+    },
+    {
+        "id": 20,
+        "name": "Sale 20",
+        "startDate": "2024-02-01",
+        "endDate": "2024-02-15",
+        "category": "Clothing",
+        "ownerName": "Manish Sahu",
+        "status": "completed"
+    }
+]
