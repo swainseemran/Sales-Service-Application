@@ -37,17 +37,17 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: rgb(72, 162, 172);
+    background-color: rgb(249, 253, 253);
 }
 
 th, td {
-    border: 1px solid #b54b4b;
+    border: 1px solid #050505;
     padding: 10px;
     text-align: left;
 }
 
 th {
-    background-color: #fb4747;
+    background-color: #fefbfb;
 }
 
 select {

@@ -1,8 +1,15 @@
 document.addEventListener('DOMContentLoaded', function () {
+    let data = [];
+
     const statusFilter = document.getElementById('statusFilter');
     const listFilter = document.getElementById('listFilter');
     const tableBody = document.getElementById('tableBody');
     const salesTable = document.getElementById('salesTable');
+    const addItemButton = document.getElementById('addItemButton');
+
+    addItemButton.addEventListener('click', function () {
+        openAddItemFile();
+    });
 
     fetch('salesData.json')
         .then(response => response.json())
@@ -57,5 +64,74 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         renderTable(filteredData);
+    }
+
+    // function openAddItemFile() {
+    //     const id = prompt("Enter ID:");
+    //     const name = prompt("Enter Name:");
+    //     const startDate = prompt("Enter Start Date:");
+    //     const endDate = prompt("Enter End Date:");
+    //     const category = prompt("Enter Category:");
+    //     const ownerName = prompt("Enter Owner Name:");
+    //     const status = prompt("Enter Status:");
+    
+    //     if (id && name && startDate && endDate && category && ownerName && status) {
+    //         const newItem = {
+    //             id: id,
+    //             name: name,
+    //             startDate: startDate,
+    //             endDate: endDate,
+    //             category: category,
+    //             ownerName: ownerName,
+    //             status: status
+    //         };
+    
+    //         appendItemToTable(newItem);
+    //     } else {
+    //         alert("Please fill in all fields.");
+    //     }
+    // }
+    
+    // function appendItemToTable(item) {
+    //     const tableBody = document.getElementById('tableBody');
+    //     const row = document.createElement('tr');
+    //     row.innerHTML = `
+    //         <td>${item.id}</td>
+    //         <td>${item.name}</td>
+    //         <td>${item.startDate}</td>
+    //         <td>${item.endDate}</td>
+    //         <td>${item.category}</td>
+    //         <td>${item.ownerName}</td>
+    //         <td>${item.status}</td>
+    //     `;
+    //     tableBody.appendChild(row);
+    // }
+    
+
+
+    function openAddItemFile() {
+        const id = prompt("Enter ID:");
+        const name = prompt("Enter Name:");
+        const startDate = prompt("Enter Start Date:");
+        const endDate = prompt("Enter End Date:");
+        const category = prompt("Enter Category:");
+        const ownerName = prompt("Enter Owner Name:");
+        const status = prompt("Enter Status:");
+
+        if (id && name && startDate && endDate && category && ownerName && status) {
+            const newItem = {
+                id: id,
+                name: name,
+                startDate: startDate,
+                endDate: endDate,
+                category: category,
+                ownerName: ownerName,
+                status: status
+            };
+            data.push(newItem);
+            renderTable(data);
+        } else {
+            alert("Please fill in all fields.");
+        }
     }
 });
