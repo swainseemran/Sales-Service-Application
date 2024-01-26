@@ -8,7 +8,8 @@ body {
 
 .container {
     max-width: 800px;
-    margin: 20px auto;
+    /* margin: 20px auto; */
+    margin: 0 auto;
     background-color: #d0cfcf;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -21,6 +22,14 @@ h1 {
 
 .filter {
     margin-bottom: 20px;
+
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label, select {
+    margin-right: 10px;
 }
 
 .filter #statusFilter{
@@ -52,6 +61,33 @@ th {
 
 select {
     padding: 8px;
+}
+
+#addItemButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#salesTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#salesTable th, #salesTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#salesTable th {
+    background-color: #f2f2f2;
 }
 
 /* Responsive Styles */
