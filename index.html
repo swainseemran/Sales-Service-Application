@@ -42,6 +42,39 @@
         </table>
     </div>
 
+    <div id="addItemModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Add Data</h2>
+            <form id="addItemForm">
+                <label for="itemId">ID:</label>
+                <input type="text" id="itemId" name="itemId" required>
+
+                <label for="itemName">Name:</label>
+                <input type="text" id="itemName" name="itemName" required>
+
+                <label for="startDate">Start Date:</label>
+                <input type="date" id="startDate" name="startDate" required>
+
+                <label for="endDate">End Date:</label>
+                <input type="date" id="endDate" name="endDate" required>
+
+                <label for="category">Category:</label>
+                <input type="text" id="category" name="category" required>
+
+                <label for="ownerName">Owner Name:</label>
+                <input type="text" id="ownerName" name="ownerName" required>
+
+                <label for="status">Status:</label>
+                <select id="status" name="status" required>
+                    <option value="completed">Completed</option>
+                    <option value="active">Active</option>
+                </select>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
